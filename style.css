@@ -1,0 +1,24 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(110, 110, 110);
+}
+
+div.mainbox {
+    background-color: #858585;
+    border-color: #a0a0a0;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    min-width: 500px;
+    min-height: 40px;
+    padding: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.247);
+}
