@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "complementary.html"
     })
 
-    document.querySelector("#translationcodn").addEventListener("click",() => {
-        // window.location.href = "translationcodon.html"
-    });
-
     document.querySelector("#totrna").addEventListener("click",() => {
         window.location.href = "totrna.html"
+    });
+
+    document.querySelector("#translationcodn").addEventListener("click",() => {
+        window.location.href = "translationcodon.html"
     });
 });
