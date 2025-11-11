@@ -6,4 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector("#comp-dna").addEventListener("click",() => {
         window.location.href = "complementary.html"
     })
+
+    document.querySelector("#translationcodn").addEventListener("click",() => {
+        // window.location.href = "translationcodon.html"
+    });
+
+    document.querySelector("#totrna").addEventListener("click",() => {
+        window.location.href = "totrna.html"
+    });
 });
